@@ -1,0 +1,39 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    height: 100vh;
+    font-family: 'Poppins';
+    background: rgb(24, 24, 24);
+}
+
+.webgl
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    /*place-items: center;*/
+}
+
+h1{
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 150px;
+    justify-self: center;
+}
+
+section{
+    height: 100vh;
+}
